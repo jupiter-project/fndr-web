@@ -1,6 +1,6 @@
 # fndr-web
 
-Web interface for [`fndr`](https://github.com/moontography/fndr) to manage your accounts stored in the [Jupiter blockchain](https://gojupiter.tech/) in a browser instead of the CLI.
+Web interface for [`fndr`](https://github.com/jupiter-project/fndr) to manage your accounts stored in the [Jupiter blockchain](https://jup.io/) in a browser instead of the CLI.
 
 Today we only support the Jupiter connector with this UI, but will support others down the road.
 
@@ -14,7 +14,7 @@ Today we only support the Jupiter connector with this UI, but will support other
 If the container starts up as expected, you should be able to access the web server in a browser at `http://localhost:8000`
 
 ```sh
-$ git clone https://github.com/moontography/fndr-web
+$ git clone https://github.com/jupiter-project/fndr-web
 $ cd fndr-web
 $ npm install
 $
@@ -68,18 +68,3 @@ $ heroku container:release web
 ## fndr Config Import
 
 With `fndr` in the CLI, you can run `$ fndr file` to get the location of your configuration for the current connector. Assuming you're already using the `jupiter` connector, you can upload this file to the UI on initial app load and start managing the same accounts you're already managing from the CLI interface in this web interface.
-
-## Development
-
-I'd love for you to contribute to the project! Use the steps above to pull down the source code, build, and run, and feel free to create PRs as you'd like.
-
-All PRs need to passing tests for additions to and changes to existing code.
-
-# Tips w/ cryptocurrency
-
-I love FOSS (free and open source software) and for the most part don't want to charge for the software I build. It does however take a good bit of time keeping up with feature requests and bug fixes, so if you have the desire and ability to send me a free coffee, it would be greatly appreciated!
-
-- Bitcoin (BTC): `3D779dP5SZo4szHivWHyFd6J2ESumwDmph`
-- Ethereum (ETH and ERC-20 tokens): `0xF3ffa9706b3264EDd1DAa93D5F5D70C8f71fAc99`
-- Stellar (XLM): `GACH6YMYFZ574FSGCV7IJXTGETEQL3DLQK64Z6DFGD57PZL5RH6LYOJT`
-- Jupiter (JUP) mainnet: `JUP-TUWZ-4B8Z-9REP-2YVH5`
